@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="Author" content="Paul Mc Gonigle">
+      <meta name="description" content="This page is the home page of the Skunks Shed Website. It provides some simple navigation and information to ease people into the website">
+    
+      <!-- Font Awesome allows use of social media icons -->
+      <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+      
+       <!--Bootstrap CSS-->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <!--Jquery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!--Fancybox script for the gallery-->
+     
+        <link rel="stylesheet" href="css/style.css">
+      
+      <title>Home Page</title>
+     
+      </head>
+    
+    <body>
+
+      <!--Navbar-->
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Skunks Shed</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Parties</a>
+              </li>
+
+
+            </ul>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="userdetails"  href="userdetails.html">User Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="loginlogout" href="login.html">Login</a>
+              </li>
+             
+
+
+            </ul>
+
+            <div class="btn-toolbar">
+              <a class="nav-item nav-link" href="checkout.html"><button type="button" class="btn btn-secondary ml-2"> 
+                Checkout <span class="badge badge-light" id="checkout"></span>
+              </button></a>
+            </div>
+              
+              
+             
+              
+           
+          </div>
+        </div>
+      </nav>
+     
+
+
+
+      <!--JUMBOTRON FOR WELCOME-->
+      <div id="welcomeJumbotron" class="p-5 mb-4 bg-light rounded-3 topJumbotron">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Home Page</h1>
+          <p class="col-md-8 fs-4"> This Website is all about "Skunks Shed", a heaven for people looking for a good time whether you want to party and dance with friends or have a nice 
+            meal with the boys.
+          </p>
+          <button class="btn btn-primary btn-lg" type="button">Learn More</button>
+        </div>
+      </div>
+
+      
+      <!--TWO COLUMN SECTION(ABOUT US)-->
+      <section id="aboutUs">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+             
+              <h2>About us</h2>
+              <p>Skunks Shed is a family run shed/restaurant. Widely renowned as one of the 
+                greatest party spots of all time. From stag parties to weddings-'Skunks Shed' does
+                it all
+              </p>
+            </div>
+            <div class="col-sm">
+              <img src="images/shedinside.jpg" style="height: 90%; width: 90%;">
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+
+      <!--Three Cards showing the owners-->
+      <section id="meetTheOwners">
+        <h2>Meet the Team </h2>
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="images/skunk.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/skunk.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/skunk.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Gallery Grid-->
+
+      <div id="Gallery" class="container-fluid">
+        
+        <a id="jumptoGallery"></a>
+        <h2>Gallery</h2>
+
+        <div class="row mt-4">
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="#jumptoGallery"  >
+              <img src="images/SeatingArea.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="#jumptoGallery"  >
+              <img src="images/SeatingArea.jpg" width="100%" height="100%">
+            </a>
+          </div>
+
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="#jumptoGallery"  >
+              <img src="images/SeatingArea.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="#jumptoGallery"  >
+              <img src="images/SeatingArea.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="#jumptoGallery"  >
+              <img src="images/SeatingArea.jpg" width="100%" height="100%">
+            </a>
+          </div>
+          <div class="item col-sm-6 col-md-4 mb-3">
+            <a href="#jumptoGallery"  >
+              <img src="images/SeatingArea.jpg" width="100%" height="100%">
+            </a>
+          </div>
+        </div>
+
+      </div> 
+    
+
+     
+
+
+   
+
+       
+      
+      
+      
+      
+      
+      <!--Javascript and Popper-->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <script src="custom-js/custom.js"></script>
+
+    </body>
+   
+      
+      
+    

@@ -1,0 +1,28 @@
+/* line 5, ../../../../../../../../../../../../../Users/paulmcgonigle/OneDrive - Institute of Technology Sligo/Year 2/WebDesign/Project/WebsiteCode/sass/style.scss */
+h1 {
+  color: #eb6134;
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/paulmcgonigle/OneDrive - Institute of Technology Sligo/Year 2/WebDesign/Project/WebsiteCode/sass/style.scss */
+#meetTheOwners {
+  margin: 20px;
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/paulmcgonigle/OneDrive - Institute of Technology Sligo/Year 2/WebDesign/Project/WebsiteCode/sass/style.scss */
+#meetTheOwners h2 {
+  text-align: center;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/paulmcgonigle/OneDrive - Institute of Technology Sligo/Year 2/WebDesign/Project/WebsiteCode/sass/style.scss */
+.item:hover {
+  filter: brightness(80%);
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/paulmcgonigle/OneDrive - Institute of Technology Sligo/Year 2/WebDesign/Project/WebsiteCode/sass/style.scss */
+#Gallery {
+  margin: 20px;
+  width: 95%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

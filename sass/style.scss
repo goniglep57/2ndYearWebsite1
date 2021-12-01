@@ -1,0 +1,29 @@
+$heading-color : #eb6134;
+$typical-margin : 20px;
+
+
+h1{
+    color: $heading-color;
+}
+
+#meetTheOwners{
+    margin: $typical-margin;
+    // text-align: center;
+
+}
+#meetTheOwners h2{
+    text-align: center;
+
+}
+
+.item:hover{
+    filter:brightness((80%));
+
+}
+#Gallery{
+    margin: $typical-margin;
+    width: 95%;
+    text-align: center;
+    
+}
+
