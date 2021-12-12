@@ -1,7 +1,7 @@
 if(localStorage.getItem('checkout') == null){
-    localStorage.setItem('checkout',0)
+    localStorage.setItem('checkout',0);
 
-};
+}
 //this code makes sure that the checkout span is set to 0 if it is ever null
 
 var checkout = localStorage.getItem('checkout');
@@ -30,14 +30,18 @@ function Logout(){
 
 checkLogInStatus();//checking if user is logged in or not-will then change the information displayed.
 
-function checkLogInStatus(){//THIS CODE IS NOT WORKING-NEEDS TO BE UPDATED
+function checkLogInStatus()
+{//THIS CODE IS NOT WORKING-NEEDS TO BE UPDATED
+    
     var loggedin = localStorage.getItem("loggedIn");
     var element = document.getElementById("userdetails");
 
 
-    if (loggedIn == 1){//this changes the navbar so that if you are logged in then LOGIN dispays Logout
+    //this changes the navbar so that if you are logged in then LOGIN dispays Logout
+      
+    if (loggedin == 1){  
         document.querySelector('#loginlogout').innerHTML = "Logout";
-        element.classList.remove("d-none");
+        element.classList.remove('d-none');
         element.classList.add("d-show");
     } else{
         element.classList.add("d-none");

@@ -25,4 +25,12 @@ h1 {
   text-align: center;
 }
 
+/* line 30, ../../../../../../../../../../../../../Users/paulmcgonigle/OneDrive - Institute of Technology Sligo/Year 2/WebDesign/Project/WebsiteCode/sass/style.scss */
+#shopJumbo {
+  background-image: url("../images/ballyliffinHotel.jpeg");
+  background-color: green;
+  background-size: cover;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

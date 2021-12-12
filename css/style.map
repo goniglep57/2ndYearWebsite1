@@ -5,8 +5,8 @@
 		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"$heading-color : #eb6134;\n$typical-margin : 20px;\n\n\nh1{\n    color: $heading-color;\n}\n\n#meetTheOwners{\n    margin: $typical-margin;\n    // text-align: center;\n\n}\n#meetTheOwners h2{\n    text-align: center;\n\n}\n\n.item:hover{\n    filter:brightness((80%));\n\n}\n#Gallery{\n    margin: $typical-margin;\n    width: 95%;\n    text-align: center;\n    \n}\n\n"
+		"$heading-color : #eb6134;\n$typical-margin : 20px;\n\n\nh1{\n    color: $heading-color;\n}\n\n#meetTheOwners{\n    margin: $typical-margin;\n    // text-align: center;\n\n}\n#meetTheOwners h2{\n    text-align: center;\n\n}\n\n.item:hover{\n    filter:brightness((80%));\n\n}\n#Gallery{\n    margin: $typical-margin;\n    width: 95%;\n    text-align: center;\n    \n}\n\n#shopJumbo{\n\n    background-image: url(\"../images/ballyliffinHotel.jpeg\");\n    background-color: green;\n    background-size: cover;\n\n}\n\n\n\n"
 	],
 	"names": [],
-	"mappings": ";AAIA,AAAA,EAAE,CAAA;EACE,KAAK,EALQ,OAAO;CAMvB;;;AAED,AAAA,cAAc,CAAA;EACV,MAAM,EARQ,IAAI;CAWrB;;;AACD,AAAA,cAAc,CAAC,EAAE,CAAA;EACb,UAAU,EAAE,MAAM;CAErB;;;AAED,AAAA,KAAK,AAAA,MAAM,CAAA;EACP,MAAM,EAAC,eAAiB;CAE3B;;;AACD,AAAA,QAAQ,CAAA;EACJ,MAAM,EAtBQ,IAAI;EAuBlB,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;CAErB"
+	"mappings": ";AAIA,AAAA,EAAE,CAAA;EACE,KAAK,EALQ,OAAO;CAMvB;;;AAED,AAAA,cAAc,CAAA;EACV,MAAM,EARQ,IAAI;CAWrB;;;AACD,AAAA,cAAc,CAAC,EAAE,CAAA;EACb,UAAU,EAAE,MAAM;CAErB;;;AAED,AAAA,KAAK,AAAA,MAAM,CAAA;EACP,MAAM,EAAC,eAAiB;CAE3B;;;AACD,AAAA,QAAQ,CAAA;EACJ,MAAM,EAtBQ,IAAI;EAuBlB,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,MAAM;CAErB;;;AAED,AAAA,UAAU,CAAA;EAEN,gBAAgB,EAAE,sCAAsC;EACxD,gBAAgB,EAAE,KAAK;EACvB,eAAe,EAAE,KAAK;CAEzB"
 }
